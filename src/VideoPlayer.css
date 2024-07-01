@@ -1,0 +1,36 @@
+.video-player {
+    position: relative;
+    width: 100%;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .play-button {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ff3b30;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .play-button:hover {
+    background-color: #ff5f52;
+  }
+  
